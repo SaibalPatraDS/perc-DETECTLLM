@@ -56,7 +56,35 @@ The Bayesian update was performed using Bayes’ theorem:
 **[ P(\text{{LLM-generated}} | \text{{data}}) = \frac{{P(\text{{data}} | \text{{LLM-generated}}) \times P(\text{{LLM-generated}})}}{{P(\text{{data}})}} ]**
 
 *Notation* : 
-( *P(\text{{LLM-generated}} | \text{{data}})* )is the posterior probability, or our updated belief about the proportion of LLM-generated text after observing the data.
-( *P(\text{{data}} | \text{{LLM-generated}})* )is the likelihood, or the probability of observing our data given that a certain proportion of it is LLM-generated.
-( *P(\text{{LLM-generated}})* )is the prior probability, or our initial belief about the proportion of LLM-generated text before observing the data.
-( *P(\text{{data}})* )is the evidence, or the total probability of observing our data under all possible proportions of LLM-generated text.
+* ( *P(\text{{LLM-generated}} | \text{{data}})* )is the posterior probability, or our updated belief about the proportion of LLM-generated text after observing the data.
+* ( *P(\text{{data}} | \text{{LLM-generated}})* )is the likelihood, or the probability of observing our data given that a certain proportion of it is LLM-generated.
+* ( *P(\text{{LLM-generated}})* )is the prior probability, or our initial belief about the proportion of LLM-generated text before observing the data.
+* ( *P(\text{{data}})* )is the evidence, or the total probability of observing our data under all possible proportions of LLM-generated text.
+
+
+
+## DetectGPT (Webapp)
+
+### Introduction
+This is the webapp for our implementation of detectGPT
+
+### installation
+pip install -r requirements.txt
+
+### Usage
+
+``` 4d
+uvicorn main:app
+```
+
+```
+
+## Acknowledgements
+1. Mitchell, Eric, et al. "DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature." arXiv preprint arXiv:2301.11305 (2023).
+
+```
+
+**authors** : 
+* 1. Ankush Goel [https://github.com/AnkushGoel251]
+* 2. Saibal Patra [https://github.com/SaibalPatraDS]
+* 3. Vineet Kumar [https://github.com/krvneet]
