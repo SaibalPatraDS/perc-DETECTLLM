@@ -84,7 +84,6 @@ uvicorn main:app
 
 ```
 
-
 **authors** : 
 
 * 1. Ankush Goel [Github](https://github.com/AnkushGoel251) [Email](ankushgoel253@gmail.com)
