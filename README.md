@@ -86,9 +86,8 @@ uvicorn main:app
 
 **authors** : 
 
-* 1. Ankush Goel  [Github](https://github.com/AnkushGoel251) 
-                  [Email](ankushgoel253@gmail.com)
-* 2. Saibal Patra [Github](https://github.com/SaibalPatraDS) 
-                  [Email](saibal.patra.2001@gmail.com)
-* 3. Vineet Kumar [Github](https://github.com/krvneet) 
-                  [Email](krvinay9250@gmail.com)
+| Authore-Name | GitHub | Email |
+|----------|----------|----------|
+| Ankush Goel    | [Github](https://github.com/AnkushGoel251)   | [Email](ankushgoel253@gmail.com)  |
+| Saibal Patra   | [Github](https://github.com/SaibalPatraDS)  | [Email](saibal.patra.2001@gmail.com)   |
+| Vineet Kumar   | [Github](https://github.com/krvneet) | [Email](krvinay9250@gmail.com) |
